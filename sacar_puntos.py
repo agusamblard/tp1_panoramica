@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Cargar la imagen
-img = cv2.imread("img/udesa_1.jpg")
+img = cv2.imread("img/edi0.jpg")
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # Lista para guardar los puntos
